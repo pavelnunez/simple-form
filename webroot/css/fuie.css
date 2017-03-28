@@ -1,0 +1,265 @@
+/*-------------------------------------------------
+IE bug fixes
+-------------------------------------------------*/
+* html #simple-solutions ul li {
+  padding: 10px 0 0 75px;
+  margin: 0 0 10px 0;
+}
+
+* html #page-home #header .inner-center {
+  padding: 40px 0 26px 0;
+}
+
+* html #sidebar-right ul li {
+  clear: both;
+  float: left;
+  width: 100%;
+  display: block;
+}
+
+* html #page-home #header .inner-center {
+  padding: 40px 0 0 0;
+  height: 284px;
+}
+
+* html .product table thead p {
+  left: 0;
+}
+* +html .product table thead p {
+  left: 0;
+}
+* html .product table td.info {
+  padding: 0 30px 0 0;
+}
+* +html .product table td.info {
+  padding: 0 30px 0 0;
+}
+* html #product-custom p.pricing a span span {
+  padding: 0 0 10px 0;
+  font-size: 2em;
+}
+* +html #product-custom p.pricing a span span {
+  padding: 0 0 10px 0;
+  font-size: 2em;
+}
+div.tooltip-more {
+  border: 1px solid #ccc;
+}
+* html div.tooltip-more {
+  border: 1px solid #ccc;
+}
+* +html div.tooltip-more {
+  border: 1px solid #ccc;
+}
+
+* html #center ul#contest-pager {
+  width: 103px;
+}
+
+/* news */
+* html a#strutta-on-twitter {
+  top: 7px;
+}
+* +html a#strutta-on-twitter {
+  top: 7px;
+}
+
+/* forms
+-----------------------------*/
+fieldset,
+.js fieldset.collapsed  {
+  background: #f7f7f7 url(images/fieldset-bg.gif) repeat-x;
+  background-position: left -5px;
+}
+* html fieldset,
+* html .js fieldset.collapsed  {
+  background-position: 0 0;
+}
+* +html fieldset,
+* +html .js fieldset.collapsed  {
+  background-position: 0 0;
+}
+legend {
+  position: relative;
+  top: -20px;
+  margin: 0 0 -20px 0;
+  background: url(images/legend-bg.gif) bottom repeat-x;
+}
+* html legend {
+  top: -18px;
+  margin: 0 0 -18px -5px;
+}
+* +html legend {
+  top: -18px;
+  margin: 0 0 -18px -5px;
+}
+
+* html .form-submit {
+  overflow: visible;
+}
+* +html .form-submit {
+  overflow: visible;
+}
+
+* html #edit-submit {
+  overflow: visible;
+}
+* +html #edit-submit {
+  overflow: visible;
+}
+
+* html input.options-add {
+  overflow: visible;
+}
+* +html input.options-add {
+  overflow: visible;
+}
+
+* html #edit-preview {
+  overflow: visible;
+}
+* +html #edit-preview {
+  overflow: visible;
+}
+* html #edit-reset {
+  overflow: visible;
+}
+* +html #edit-reset {
+  overflow: visible;
+}
+* html #edit-cancel {
+  overflow: visible;
+}
+* +html #edit-cancel {
+  overflow: visible;
+}
+
+* html s3-upload .form-submit {
+  overflow: visible;
+}
+* +html s3-upload .form-submit {
+  overflow: visible;
+}
+
+* html #edit-preview {
+  overflow: visible;
+}
+* +html #edit-preview {
+  overflow: visible;
+}
+
+* html #auth-form,
+* html #strutta-auth-password {
+  padding: 20px 20px 0 20px;
+}
+* +html #auth-form,
+* +html #strutta-auth-password {
+  padding: 20px 20px 0 20px;
+}
+
+/* footer
+-----------------------------*/
+#extra-info .social-buttons .google-plus1 {
+  display: none;
+}
+#extra-info .social-buttons .twitter-follow {
+  left: 0;
+}
+#extra-info .social-buttons .facebook-like {
+  left: 120px;
+}
+
+/* tables
+-----------------------------*/
+* html tr.even td,
+* html tr.odd td {
+  border-bottom: 1px solid #ccc;
+}
+* +html tr.even td,
+* +html tr.odd td {
+  border-bottom: 1px solid #ccc;
+}
+
+* html #pricing-table tr td {
+  border-bottom: 1px solid #fff;
+}
+* +html #pricing-table tr td {
+  border-bottom: 1px solid #fff;
+}
+
+/* wizard
+-----------------------------*/
+html #edit-integration-wrapper {
+  margin: 15px 0 0 0;
+}
+* html #edit-integration-wrapper {
+  margin: 15px 0 0 0;
+}
+* +html #edit-integration-wrapper {
+  margin: 15px 0 0 0;
+}
+
+html fieldset.look-and-feel-template legend {
+  margin: 0 0 5px 0;
+}
+* html fieldset.look-and-feel-template legend {
+  margin: 0 0 5px 0;
+}
+* +html fieldset.look-and-feel-template legend {
+  margin: 0 0 5px 0;
+}
+
+* html .look-and-feel-template .template-list {
+  padding: 0;
+  margin: 0 0 0 15px;
+}
+* html .look-and-feel-template .template-list #edit-template-wrapper {
+  width: 167px;
+}
+
+* html .options-delete {
+  top: 0;
+  right: 25px;
+}
+
+* html #center #fieldset-product ul li a {
+  right: 20px;
+}
+* html #center .charges-wrapper ol li span {
+  right: 20px;
+}
+
+#contest-review h4 {
+  padding: 15px 0 0 0;
+}
+* html #contest-review h4 {
+  padding: 15px 0 0 0;
+}
+* +html #contest-review h4 {
+  padding: 15px 0 0 0;
+}
+* html ul .sortable-edit {
+  overflow: visible;
+}
+* +html ul .sortable-edit {
+  overflow: visible;
+}
+* html ul .sortable-remove {
+  overflow: visible;
+}
+* +html ul .sortable-remove {
+  overflow: visible;
+}
+* html .sortable-wrapper ul.sortable li {
+  padding: 20px 20px 0 50px;
+}
+* +html .sortable-wrapper ul.sortable li {
+  padding: 20px 20px 0 50px;
+}
+
+/* misc
+-----------------------------*/
+.referrer-message {
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
